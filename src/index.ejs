@@ -46,7 +46,13 @@
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
-  <main></main>
+  <!-- Navbar microfrontend -->
+  <div id="navbar"></div>
+  <main>
+    <div id="estudiantes"></div>
+    <div id="notas"></div>
+    <div id="reportes"></div>
+  </main>
   <script>
     window.importMapInjector.initPromise.then(() => {
       import('@unisabana/root-config');
